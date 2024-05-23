@@ -1,2 +1,4 @@
 # v1-calendar-exercise
-# run : > npm start
+# run:
+> npm install
+> npm start
