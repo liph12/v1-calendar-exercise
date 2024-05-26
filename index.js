@@ -1,5 +1,4 @@
 const readlineSync = require("readline-sync");
-
 const months = [
   "January",
   "February",
