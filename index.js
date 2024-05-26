@@ -30,7 +30,7 @@ const getDaysInEachMonth = (year, month) => {
   for (let day = 1; day <= daysInMonth; day++) {
     daysStr += (day < 10 ? " " + day : day) + "  ";
 
-    if ((day + firstDay) % 7 === 0) {
+    if ((day + firstDay) % weekDays.length === 0) {
       daysStr += "\n";
     }
   }
